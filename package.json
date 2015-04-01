@@ -1,0 +1,34 @@
+{
+  "name": "rebass-two-pane",
+  "version": "1.0.0",
+  "description": "React two pane interface component",
+  "scripts": {
+    "jsx": "jsx -x jsx src .",
+    "watch:jsx": "jsx -x jsx -w src .",
+    "dev": "webpack-dev-server --progress --colors",
+    "prod": "webpack -p --progress --colors",
+    "start": "npm run watch:jsx & npm run dev"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=0.12"
+  },
+  "dependencies": {
+    "classnames": "^1.2.0",
+    "colorbass": "^1.0.0",
+    "react-controllables": "^0.3.1",
+    "react-tools": "^0.13.1"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.8.0"
+  },
+  "keywords": [
+    "react-component",
+    "two-pane",
+    "basscss",
+    "rebass"
+  ]
+}
